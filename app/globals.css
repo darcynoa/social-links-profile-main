@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-grey-900: hsl(0, 0%, 8%);
+  --color-grey-800: hsl(0, 0%, 12%);
+  --color-grey-700: hsl(0, 0%, 20%);
+  --color-accent: hsl(75, 94%, 57%);
 }
 
 .attribution {
