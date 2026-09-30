@@ -1,14 +1,4 @@
-export type SocialLink = {
-  label: string;
-  href: string;
-};
-
-export type Profile = {
-  name: string;
-  location: string;
-  bio: string;
-  links: SocialLink[];
-};
+import type { Profile } from "./types";
 
 export const profile: Profile = {
   name: "Jessica Randall",
